@@ -1,0 +1,74 @@
+
+:root{
+  --body_background: white;
+  --body_color: black;
+  --link_color: navy;
+
+}
+[data-theme="dark"]{
+  --body_background: #282c34;
+  --body_color: white;
+  --link_color: cyan;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1440px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-form{
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+}
+
+.input-and-btn{
+  display: flex;
+}
+
+.todo-box{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-box .content{
+  display: flex;
+}
+
+.todo-box .content p{
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+.todo-box span{
+  margin: 4px 5px;
+  margin-top: 0px;
+}
+
+.delete-all{
+  width: 400px;
+}
+
+.actions-box{
+  cursor: pointer;
+}
+
+.back-btn{
+  margin-top: 5px;
+  width: 100%;
+}
